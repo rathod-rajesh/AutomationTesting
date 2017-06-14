@@ -14,7 +14,7 @@ public class FirstTestNGFile {
   public void verifyHomepageTitle() {
        
       System.out.println("launching firefox browser"); 
-      System.setProperty("webdriver.firefox.marionette", "../webdriver_64x/geckodriver.exe");
+      System.setProperty("webdriver.firefox.marionette", "./webdrivers/geckodriver.exe");
       driver = new FirefoxDriver();
       driver.get(baseUrl);
       driver.manage().window().maximize();
@@ -27,7 +27,7 @@ public class FirstTestNGFile {
   public void testGoogleSearch() throws InterruptedException {
     // Optional, if not specified, WebDriver will search your path for chromedriver.
 	System.out.println("launching Chrome browser \n ");  
-    System.setProperty("webdriver.chrome.driver", "../webdriver_64x/chromedriver.exe");
+    System.setProperty("webdriver.chrome.driver", "./webdrivers/chromedriver.exe");
     WebDriver driver = new ChromeDriver();
     driver.get("http://www.google.com/");
     Thread.sleep(5000);  // Let the user actually see something!
