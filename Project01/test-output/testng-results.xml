@@ -1,107 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3608" started-at="2017-06-14T11:41:25Z" finished-at="2017-06-14T11:41:29Z">
+  <suite name="TestSuite" duration-ms="15676" started-at="2017-06-14T13:58:11Z" finished-at="2017-06-14T13:58:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3608" started-at="2017-06-14T11:41:25Z" finished-at="2017-06-14T11:41:29Z">
-      <class name="pack1.NewTest01">
-        <test-method status="FAIL" signature="f()[pri:0, instance:pack1.NewTest01@475530b9]" name="f" duration-ms="3550" started-at="2017-06-14T17:11:25Z" finished-at="2017-06-14T17:11:29Z">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Unable to find a matching set of capabilities
-Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'RAJESH-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
-Driver info: driver.version: FirefoxDriver
-remote stacktrace: stack backtrace:
-   0:           0x489f6f - <no info>
-   1:           0x48ad59 - <no info>
-   2:           0x43c325 - <no info>
-   3:           0x443f9a - <no info>
-   4:           0x41ddb1 - <no info>
-   5:           0x4091c7 - <no info>
-   6:           0x6bc939 - <no info>
-   7:           0x415a19 - <no info>
-   8:           0x6b6e43 - <no info>
-   9:         0x76d4f56d - BaseThreadInitThunk]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Unable to find a matching set of capabilities
-Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'RAJESH-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
-Driver info: driver.version: FirefoxDriver
-remote stacktrace: stack backtrace:
-   0:           0x489f6f - <no info>
-   1:           0x48ad59 - <no info>
-   2:           0x43c325 - <no info>
-   3:           0x443f9a - <no info>
-   4:           0x41ddb1 - <no info>
-   5:           0x4091c7 - <no info>
-   6:           0x6bc939 - <no info>
-   7:           0x415a19 - <no info>
-   8:           0x6b6e43 - <no info>
-   9:         0x76d4f56d - BaseThreadInitThunk
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:137)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:108)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:137)
-	at pack1.NewTest01.f(NewTest01.java:13)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+    <test name="EdgeTest" duration-ms="8961" started-at="2017-06-14T13:58:11Z" finished-at="2017-06-14T13:58:20Z">
+      <class name="pack1.CrossBrowserScript">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:pack1.CrossBrowserScript@4667ae56]" name="setup" is-config="true" duration-ms="5618" started-at="2017-06-14T19:28:11Z" finished-at="2017-06-14T19:28:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- pack1.NewTest01 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:pack1.CrossBrowserScript@4667ae56]" name="testParameterWithXML" duration-ms="3334" started-at="2017-06-14T19:28:17Z" finished-at="2017-06-14T19:28:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- pack1.CrossBrowserScript -->
+    </test> <!-- EdgeTest -->
+    <test name="ChromeTest" duration-ms="9014" started-at="2017-06-14T13:58:11Z" finished-at="2017-06-14T13:58:20Z">
+      <class name="pack1.CrossBrowserScript">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:pack1.CrossBrowserScript@61832929]" name="setup" is-config="true" duration-ms="4107" started-at="2017-06-14T19:28:11Z" finished-at="2017-06-14T19:28:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:pack1.CrossBrowserScript@61832929]" name="testParameterWithXML" duration-ms="4878" started-at="2017-06-14T19:28:16Z" finished-at="2017-06-14T19:28:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- pack1.CrossBrowserScript -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="15676" started-at="2017-06-14T13:58:11Z" finished-at="2017-06-14T13:58:27Z">
+      <class name="pack1.CrossBrowserScript">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:pack1.CrossBrowserScript@42e26948]" name="setup" is-config="true" duration-ms="13761" started-at="2017-06-14T19:28:11Z" finished-at="2017-06-14T19:28:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:pack1.CrossBrowserScript@42e26948]" name="testParameterWithXML" duration-ms="1906" started-at="2017-06-14T19:28:25Z" finished-at="2017-06-14T19:28:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- pack1.CrossBrowserScript -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- TestSuite -->
 </testng-results>

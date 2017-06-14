@@ -27,13 +27,13 @@ public class CrossBrowserScript {
 		//Check if parameter passed from TestNG is 'firefox'
 		if(browser.equalsIgnoreCase("firefox")){
 		//create firefox instance
-			System.setProperty("webdriver.firefox.marionette", "../webdriver_64x/geckodriver.exe");
+			System.setProperty("webdriver.firefox.marionette", ".//webdriver_64x/geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
 		//Check if parameter passed as 'chrome'
 		else if(browser.equalsIgnoreCase("chrome")){
 			//set path to chromedriver.exe
-			System.setProperty("webdriver.chrome.driver","../webdriver_64x/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver",".//webdriver_64x/chromedriver.exe");
 			//create chrome instance
 			driver = new ChromeDriver();
 		}
@@ -41,7 +41,7 @@ public class CrossBrowserScript {
 				else if(browser.equalsIgnoreCase("Edge")){
 					//set path to Edge.exe
 					//System.setProperty("webdriver.edge.driver",".\\MicrosoftWebDriver.exe");
-					System.setProperty("webdriver.edge.driver","../webdriver_64x/IEDriverServer.exe");
+					System.setProperty("webdriver.edge.driver","./webdriver_64x/IEDriverServer.exe");
 					//create Edge instance
 					driver = new EdgeDriver();
 				}

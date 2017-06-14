@@ -27,7 +27,7 @@ public class CrossBrowserScript {
 		//Check if parameter passed from TestNG is 'firefox'
 		if(browser.equalsIgnoreCase("firefox")){
 		//create firefox instance
-			System.setProperty("webdriver.firefox.marionette", "../webdriver_64x/geckodriver.exe");
+			System.setProperty("webdriver.firefox.marionette", "//webdriver_64x/geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
 		//Check if parameter passed as 'chrome'
