@@ -135,3 +135,12 @@
 2017-06-14 17:24:22,783 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\testWorkspace\Project01\src\main\resources
 2017-06-14 17:24:22,785 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-06-14 17:24:22,785 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\testWorkspace\Project01\src\test\resources
+2017-06-14 18:11:45,738 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: TestPorjectTestNg:Project01:0.0.1-SNAPSHOT @ D:\repo1\Project01\pom.xml.
+2017-06-14 18:11:49,695 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-14 18:11:49,698 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\repo1\Project01\src\main\resources
+2017-06-14 18:11:49,707 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-14 18:11:49,707 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\repo1\Project01\src\test\resources
+2017-06-14 18:47:28,466 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-14 18:47:28,500 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\testWorkspace\Project01\src\main\resources
+2017-06-14 18:47:28,504 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-14 18:47:28,504 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\testWorkspace\Project01\src\test\resources
