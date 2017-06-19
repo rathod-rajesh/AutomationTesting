@@ -8,6 +8,9 @@ import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;		
+import java.util.concurrent.TimeUnit;
+
+
 public class NewTest {		
 	    public WebDriver driver;		
 	    
@@ -16,6 +19,7 @@ public class NewTest {
 			System.out.println("launching firefox browser"); 
 			System.setProperty("webdriver.firefox.marionette", "../webdriver_64x/geckodriver.exe");
 		    driver = new FirefoxDriver();  
+		    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		}
 		
 		@Test				
