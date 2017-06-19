@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19041" started-at="2017-06-19T07:21:13Z" finished-at="2017-06-19T07:21:32Z">
+  <suite name="Default suite" duration-ms="20776" started-at="2017-06-19T11:35:58Z" finished-at="2017-06-19T11:36:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19041" started-at="2017-06-19T07:21:13Z" finished-at="2017-06-19T07:21:32Z">
+    <test name="Default test" duration-ms="20776" started-at="2017-06-19T11:35:58Z" finished-at="2017-06-19T11:36:19Z">
       <class name="example.TestFacebook">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.TestFacebook@548e7350]" name="beforeTest" is-config="true" duration-ms="11506" started-at="2017-06-19T12:51:13Z" finished-at="2017-06-19T12:51:24Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:example.TestFacebook@548e7350]" name="beforeTest" is-config="true" duration-ms="13985" started-at="2017-06-19T17:05:58Z" finished-at="2017-06-19T17:06:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="FAIL" signature="TestOR()[pri:0, instance:example.TestFacebook@548e7350]" name="TestOR" duration-ms="7497" started-at="2017-06-19T12:51:24Z" finished-at="2017-06-19T12:51:32Z">
+        <test-method status="FAIL" signature="TestOR()[pri:0, instance:example.TestFacebook@548e7350]" name="TestOR" duration-ms="6753" started-at="2017-06-19T17:06:12Z" finished-at="2017-06-19T17:06:19Z">
           <exception class="org.openqa.selenium.InvalidSelectorException">
             <message>
               <![CDATA[The given selector .//*[@id='loginbutton']</span> is either invalid or does not result in a WebElement. The following error occurred:
 InvalidSelectorError: Unable to locate an element with the xpath expression .//*[@id='loginbutton']</span> because of the following error:
 SyntaxError: The expression is not a legal expression.
-Command duration or timeout: 30 milliseconds]]>
+Command duration or timeout: 27 milliseconds]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.InvalidSelectorException: The given selector .//*[@id='loginbutton']</span> is either invalid or does not result in a WebElement. The following error occurred:
 InvalidSelectorError: Unable to locate an element with the xpath expression .//*[@id='loginbutton']</span> because of the following error:
 SyntaxError: The expression is not a legal expression.
-Command duration or timeout: 30 milliseconds
+Command duration or timeout: 27 milliseconds
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -35,7 +35,7 @@ Command duration or timeout: 30 milliseconds
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
-	at example.TestFacebook.TestOR(TestFacebook.java:63)
+	at example.TestFacebook.TestOR(TestFacebook.java:65)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -68,12 +68,12 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'RAJESH-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
 Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.annotateInvalidSelectorError_(file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous3923140384423992888webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:11364)
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous3923140384423992888webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:11395)
-	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous3923140384423992888webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:11399)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_/k(file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous3923140384423992888webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12879)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous3923140384423992888webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12884)
-	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous3923140384423992888webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12826)
+	at <anonymous class>.FirefoxDriver.annotateInvalidSelectorError_(file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous171976943428648972webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:11364)
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous171976943428648972webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:11395)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous171976943428648972webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:11399)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/k(file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous171976943428648972webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12879)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous171976943428648972webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12884)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/ADMINI~1/AppData/Local/Temp/anonymous171976943428648972webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12826)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.InvalidSelectorException -->

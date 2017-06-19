@@ -1,4 +1,5 @@
 package example;
+import utility.*;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -16,11 +17,12 @@ public class TestFacebook {
 	public WebDriver driver;
 
 	@BeforeTest
-	public void beforeTest() {	
-		System.out.println("launching firefox browser"); 
-		System.setProperty("webdriver.firefox.marionette", "../webdriver_64x/geckodriver.exe");
+	public void beforeTest() throws InterruptedException {	
+		systemProperty set = new systemProperty();
+		set.setdriver(driver);
 		driver = new FirefoxDriver();  
 		driver.manage().window().maximize();
+		Thread.sleep(3000);
 	}	
 
 	@Test
@@ -44,7 +46,7 @@ public class TestFacebook {
 		System.out.println("Property class loaded");
 
 		driver.get("http://www.facebook.com");
-		
+
 		// Enter username here I used keys which is specified in Object repository.
 		// Here getProperty is method which
 		// will accept key and will return value for the same
