@@ -6,12 +6,18 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
 
 public class NewTest01 {
+	public WebDriver driver ; 
+	
   @Test
   public void f() throws InterruptedException {
-		DesiredCapabilities capabilities = DesiredCapabilities.firefox();
-		capabilities.setCapability("marionette", true);
-		WebDriver driver = new FirefoxDriver(capabilities);
+		//DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+		//capabilities.setCapability("marionette", true);
+		//WebDriver driver = new FirefoxDriver(capabilities);
+	  
+	  	System.setProperty("webdriver.firefox.marionette", "../webdriver_64x/geckodriver.exe");
+	  	driver = new FirefoxDriver();
 		driver.get("http://www.toolsqa.com");
+		driver.manage().window().maximize();
 
 		Thread.sleep(5000);
 		driver.quit();
