@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="17445" started-at="2017-06-16T06:27:27Z" finished-at="2017-06-16T06:27:44Z">
+  <suite name="TestSuite" duration-ms="14334" started-at="2017-06-19T06:04:46Z" finished-at="2017-06-19T06:05:00Z">
     <groups>
     </groups>
-    <test name="EdgeTest" duration-ms="7420" started-at="2017-06-16T06:27:27Z" finished-at="2017-06-16T06:27:34Z">
+    <test name="EdgeTest" duration-ms="7414" started-at="2017-06-19T06:04:46Z" finished-at="2017-06-19T06:04:53Z">
       <class name="example.CrossBrowserScript">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:example.CrossBrowserScript@73ad2d6]" name="setup" is-config="true" duration-ms="3883" started-at="2017-06-16T11:57:27Z" finished-at="2017-06-16T11:57:31Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:example.CrossBrowserScript@27c20538]" name="setup" is-config="true" duration-ms="4662" started-at="2017-06-19T11:34:46Z" finished-at="2017-06-19T11:34:50Z">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:example.CrossBrowserScript@73ad2d6]" name="testParameterWithXML" duration-ms="3505" started-at="2017-06-16T11:57:31Z" finished-at="2017-06-16T11:57:34Z">
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:example.CrossBrowserScript@27c20538]" name="testParameterWithXML" duration-ms="2736" started-at="2017-06-19T11:34:50Z" finished-at="2017-06-19T11:34:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testParameterWithXML -->
       </class> <!-- example.CrossBrowserScript -->
     </test> <!-- EdgeTest -->
-    <test name="ChromeTest" duration-ms="11596" started-at="2017-06-16T06:27:27Z" finished-at="2017-06-16T06:27:39Z">
+    <test name="ChromeTest" duration-ms="8106" started-at="2017-06-19T06:04:46Z" finished-at="2017-06-19T06:04:54Z">
       <class name="example.CrossBrowserScript">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:example.CrossBrowserScript@4883b407]" name="setup" is-config="true" duration-ms="6415" started-at="2017-06-16T11:57:27Z" finished-at="2017-06-16T11:57:33Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:example.CrossBrowserScript@204f30ec]" name="setup" is-config="true" duration-ms="4096" started-at="2017-06-19T11:34:46Z" finished-at="2017-06-19T11:34:50Z">
           <params>
             <param index="0">
               <value>
@@ -37,15 +37,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:example.CrossBrowserScript@4883b407]" name="testParameterWithXML" duration-ms="5164" started-at="2017-06-16T11:57:33Z" finished-at="2017-06-16T11:57:39Z">
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:example.CrossBrowserScript@204f30ec]" name="testParameterWithXML" duration-ms="3979" started-at="2017-06-19T11:34:50Z" finished-at="2017-06-19T11:34:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testParameterWithXML -->
       </class> <!-- example.CrossBrowserScript -->
     </test> <!-- ChromeTest -->
-    <test name="FirefoxTest" duration-ms="17444" started-at="2017-06-16T06:27:27Z" finished-at="2017-06-16T06:27:44Z">
+    <test name="FirefoxTest" duration-ms="14334" started-at="2017-06-19T06:04:46Z" finished-at="2017-06-19T06:05:00Z">
       <class name="example.CrossBrowserScript">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:example.CrossBrowserScript@42dafa95]" name="setup" is-config="true" duration-ms="14674" started-at="2017-06-16T11:57:27Z" finished-at="2017-06-16T11:57:42Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:example.CrossBrowserScript@e45f292]" name="setup" is-config="true" duration-ms="12074" started-at="2017-06-19T11:34:46Z" finished-at="2017-06-19T11:34:58Z">
           <params>
             <param index="0">
               <value>
@@ -56,7 +56,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:example.CrossBrowserScript@42dafa95]" name="testParameterWithXML" duration-ms="2763" started-at="2017-06-16T11:57:42Z" finished-at="2017-06-16T11:57:44Z">
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:example.CrossBrowserScript@e45f292]" name="testParameterWithXML" duration-ms="2251" started-at="2017-06-19T11:34:58Z" finished-at="2017-06-19T11:35:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testParameterWithXML -->

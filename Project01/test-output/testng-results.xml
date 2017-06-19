@@ -1,66 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="15676" started-at="2017-06-14T13:58:11Z" finished-at="2017-06-14T13:58:27Z">
+  <suite name="Default suite" duration-ms="29625" started-at="2017-06-19T06:01:23Z" finished-at="2017-06-19T06:01:53Z">
     <groups>
     </groups>
-    <test name="EdgeTest" duration-ms="8961" started-at="2017-06-14T13:58:11Z" finished-at="2017-06-14T13:58:20Z">
-      <class name="pack1.CrossBrowserScript">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:pack1.CrossBrowserScript@4667ae56]" name="setup" is-config="true" duration-ms="5618" started-at="2017-06-14T19:28:11Z" finished-at="2017-06-14T19:28:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Edge]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="29625" started-at="2017-06-19T06:01:23Z" finished-at="2017-06-19T06:01:53Z">
+      <class name="pack1.NewTest01">
+        <test-method status="PASS" signature="f()[pri:0, instance:pack1.NewTest01@4b9e13df]" name="f" duration-ms="29596" started-at="2017-06-19T11:31:23Z" finished-at="2017-06-19T11:31:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:pack1.CrossBrowserScript@4667ae56]" name="testParameterWithXML" duration-ms="3334" started-at="2017-06-14T19:28:17Z" finished-at="2017-06-14T19:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testParameterWithXML -->
-      </class> <!-- pack1.CrossBrowserScript -->
-    </test> <!-- EdgeTest -->
-    <test name="ChromeTest" duration-ms="9014" started-at="2017-06-14T13:58:11Z" finished-at="2017-06-14T13:58:20Z">
-      <class name="pack1.CrossBrowserScript">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:pack1.CrossBrowserScript@61832929]" name="setup" is-config="true" duration-ms="4107" started-at="2017-06-14T19:28:11Z" finished-at="2017-06-14T19:28:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:pack1.CrossBrowserScript@61832929]" name="testParameterWithXML" duration-ms="4878" started-at="2017-06-14T19:28:16Z" finished-at="2017-06-14T19:28:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testParameterWithXML -->
-      </class> <!-- pack1.CrossBrowserScript -->
-    </test> <!-- ChromeTest -->
-    <test name="FirefoxTest" duration-ms="15676" started-at="2017-06-14T13:58:11Z" finished-at="2017-06-14T13:58:27Z">
-      <class name="pack1.CrossBrowserScript">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:pack1.CrossBrowserScript@42e26948]" name="setup" is-config="true" duration-ms="13761" started-at="2017-06-14T19:28:11Z" finished-at="2017-06-14T19:28:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:pack1.CrossBrowserScript@42e26948]" name="testParameterWithXML" duration-ms="1906" started-at="2017-06-14T19:28:25Z" finished-at="2017-06-14T19:28:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testParameterWithXML -->
-      </class> <!-- pack1.CrossBrowserScript -->
-    </test> <!-- FirefoxTest -->
-  </suite> <!-- TestSuite -->
+        </test-method> <!-- f -->
+      </class> <!-- pack1.NewTest01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
