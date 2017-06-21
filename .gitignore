@@ -2,4 +2,4 @@
 *.class
 *.recommenders
 *.metadata/.plugins
-/metadata/*
+.metadata/
