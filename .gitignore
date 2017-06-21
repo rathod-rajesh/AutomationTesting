@@ -1,4 +1,8 @@
 *.metadata
 *.class
 *.recommenders
-.metadata/
+*.metadata/.plugins
+.metadata/*
+/.metadata/*
+/.recommenders/
+.recommenders/*

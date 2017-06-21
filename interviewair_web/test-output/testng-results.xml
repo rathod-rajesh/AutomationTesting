@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="99646" started-at="2017-06-21T06:32:23Z" finished-at="2017-06-21T06:34:03Z">
+  <suite name="Default suite" duration-ms="22045" started-at="2017-06-21T13:34:15Z" finished-at="2017-06-21T13:34:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="99646" started-at="2017-06-21T06:32:23Z" finished-at="2017-06-21T06:34:03Z">
-      <class name="homepage.homepage">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:homepage.homepage@f6c48ac]" name="setUp" is-config="true" duration-ms="13124" started-at="2017-06-21T12:02:23Z" finished-at="2017-06-21T12:02:36Z">
+    <test name="Default test" duration-ms="22045" started-at="2017-06-21T13:34:15Z" finished-at="2017-06-21T13:34:37Z">
+      <class name="homepage.LocationSearch">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:homepage.LocationSearch@f6c48ac]" name="setUp" is-config="true" duration-ms="7970" started-at="2017-06-21T19:04:15Z" finished-at="2017-06-21T19:04:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testCandidateLogin()[pri:1, instance:homepage.homepage@f6c48ac]" name="testCandidateLogin" duration-ms="26643" started-at="2017-06-21T12:02:36Z" finished-at="2017-06-21T12:03:03Z">
+        <test-method status="PASS" signature="testCandidateLogin()[pri:1, instance:homepage.LocationSearch@f6c48ac]" name="testCandidateLogin" duration-ms="14037" started-at="2017-06-21T19:04:23Z" finished-at="2017-06-21T19:04:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCandidateLogin -->
-        <test-method status="PASS" signature="testCompanyLogin()[pri:2, instance:homepage.homepage@f6c48ac]" name="testCompanyLogin" duration-ms="24285" started-at="2017-06-21T12:03:03Z" finished-at="2017-06-21T12:03:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCompanyLogin -->
-        <test-method status="PASS" signature="testCollegeLogin()[pri:3, instance:homepage.homepage@f6c48ac]" name="testCollegeLogin" duration-ms="34675" started-at="2017-06-21T12:03:27Z" finished-at="2017-06-21T12:04:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCollegeLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:homepage.homepage@f6c48ac]" name="tearDown" is-config="true" duration-ms="875" started-at="2017-06-21T12:04:02Z" finished-at="2017-06-21T12:04:03Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:homepage.LocationSearch@f6c48ac]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-06-21T19:04:37Z" finished-at="2017-06-21T19:04:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- homepage.homepage -->
+      </class> <!-- homepage.LocationSearch -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -1,8 +1,6 @@
 package homepage;
 import static org.testng.Assert.fail;
 
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoAlertPresentException;
@@ -18,6 +16,7 @@ import org.testng.annotations.Test;
  * 1. check candidate login working
  * 2. check company login working
  * 3. check college login working
+ * 4. Verify Job Search working from Homepage2JobSearch *minimize browser..!!!!*
  */
 
 public class homepage {
@@ -83,6 +82,42 @@ public class homepage {
 		System.out.println("Done 3");
 	}
 
+	//@Test (priority=4)
+	@Test(enabled = false)
+	public void Homepage2JobSearch() throws Exception {
+		driver.get(baseUrl+ "/");
+				
+		Thread.sleep(5000);
+	    driver.findElement(By.id("searchBy_jobTitle")).clear();
+	    driver.findElement(By.id("searchBy_jobTitle")).sendKeys("java developer");
+	    
+	    driver.findElement(By.id("searchBy_jobLoc")).click();
+	    driver.findElement(By.id("searchBy_jobLoc")).clear();
+	    driver.findElement(By.id("searchBy_jobLoc")).sendKeys("mumbai");
+	     	    
+	    
+//        WebElement element = driver.findElement(By.xpath("//input[@value='Search']"));
+//        Actions action = new Actions(driver);
+//        action.moveToElement(element).build().perform();
+//        driver.findElement(By.xpath("//input[@value='Search']")).click();
+//	    
+	    driver.findElement(By.xpath("//input[@value='Search']")).click();
+		Thread.sleep(5000);
+				
+		String location = driver.findElement(By.id("searchBy_jobLoc")).getAttribute("value");
+		String jobQuery = driver.findElement(By.id("jobQuery")).getAttribute("value");
+		String Title = driver.getTitle();
+		
+		System.out.println("\n Location " + location + "\n Query "+ jobQuery + "\n Title "+ Title );
+		 
+		if (location.equals("mumbai,") && jobQuery.equals("java developer,") && Title.equals("java developer Jobs | India's No 1 Video Interview Platform - Interview Air")){
+			System.out.println("page loaded");
+		}else{
+			System.out.println("ERROR > page loaded");
+		}
+		    
+		System.out.println("Done 4");
+	}
 
 	@AfterClass(alwaysRun = true)
 	public void tearDown() throws Exception {

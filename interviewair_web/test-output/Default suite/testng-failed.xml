@@ -5,7 +5,7 @@
     <classes>
       <class name="homepage.homepage">
         <methods>
-          <include name="testCollegeLogin"/>
+          <include name="Homepage2JobSearch"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
