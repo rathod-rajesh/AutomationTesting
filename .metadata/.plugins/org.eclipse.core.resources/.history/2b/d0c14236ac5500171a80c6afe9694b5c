@@ -1,0 +1,15 @@
+package homepage;
+
+
+/*
+ * 1. verify all links are working - will be done via tool
+ * 2. verify all the pic have alt tag - will be done via tool
+ * 3. check candidate login working
+ * 4. check company login working
+ * 5. check college login working
+ * 6. check training institute login working
+ */
+
+public class homepage {
+
+}

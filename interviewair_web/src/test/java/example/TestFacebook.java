@@ -50,14 +50,12 @@ public class TestFacebook {
 		// Enter username here I used keys which is specified in Object repository.
 		// Here getProperty is method which
 		// will accept key and will return value for the same
-		driver.findElement(By.xpath(pro.getProperty("facebook.login.username.xpath"))).
-		sendKeys("Selenium@gmail.com");
+		driver.findElement(By.xpath(pro.getProperty("facebook.login.username.xpath"))).sendKeys("Selenium@gmail.com");
 
 		// Enter password here I used keys which is specified in Object repository.
 		// Here getProperty is method which
 		// will accept key and will return value for the same
-		driver.findElement(By.xpath(pro.getProperty("facebook.login.password.xpath"))).
-		sendKeys("adsadasdas");
+		driver.findElement(By.xpath(pro.getProperty("facebook.login.password.xpath"))).sendKeys("adsadasdas");
 
 		// Click on login button here I used keys which is specified in Object repository.
 		// Here getProperty is method which
