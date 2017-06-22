@@ -4,6 +4,9 @@
 *.xml
 *.html
 *.gen
+*.xmi
+*.resources
+*.properties
 
 *.metadata/.plugins/
 .metadata/
