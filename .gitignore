@@ -9,7 +9,11 @@
 .metadata/
 .recommenders/
 .metadata/*
+.metadata/**
 /.metadata/*
 /.recommenders/
 .recommenders/*
 interviewair_web/test-output/
+.metadata/.plugins
+.metadata/.lock
+.metadata/.log
