@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22045" started-at="2017-06-21T13:34:15Z" finished-at="2017-06-21T13:34:37Z">
+  <suite name="Default suite" duration-ms="28551" started-at="2017-06-22T06:35:26Z" finished-at="2017-06-22T06:35:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22045" started-at="2017-06-21T13:34:15Z" finished-at="2017-06-21T13:34:37Z">
+    <test name="Default test" duration-ms="28551" started-at="2017-06-22T06:35:26Z" finished-at="2017-06-22T06:35:55Z">
       <class name="homepage.LocationSearch">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:homepage.LocationSearch@f6c48ac]" name="setUp" is-config="true" duration-ms="7970" started-at="2017-06-21T19:04:15Z" finished-at="2017-06-21T19:04:23Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:homepage.LocationSearch@f6c48ac]" name="setUp" is-config="true" duration-ms="7864" started-at="2017-06-22T12:05:26Z" finished-at="2017-06-22T12:05:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testCandidateLogin()[pri:1, instance:homepage.LocationSearch@f6c48ac]" name="testCandidateLogin" duration-ms="14037" started-at="2017-06-21T19:04:23Z" finished-at="2017-06-21T19:04:37Z">
+        <test-method status="PASS" signature="testCandidateLogin()[pri:1, instance:homepage.LocationSearch@f6c48ac]" name="testCandidateLogin" duration-ms="20652" started-at="2017-06-22T12:05:34Z" finished-at="2017-06-22T12:05:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCandidateLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:homepage.LocationSearch@f6c48ac]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-06-21T19:04:37Z" finished-at="2017-06-21T19:04:37Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:homepage.LocationSearch@f6c48ac]" name="tearDown" is-config="true" duration-ms="1" started-at="2017-06-22T12:05:55Z" finished-at="2017-06-22T12:05:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

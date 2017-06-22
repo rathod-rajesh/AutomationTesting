@@ -1,8 +1,11 @@
 *.metadata
 *.class
 *.recommenders
-*.metadata/.plugins
+*.metadata/.plugins/
+.metadata/
+.recommenders/
 .metadata/*
 /.metadata/*
 /.recommenders/
 .recommenders/*
+interviewair_web/test-output/

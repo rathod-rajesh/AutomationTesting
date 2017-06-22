@@ -59,7 +59,8 @@ public class LocationSearch {
 		System.out.println("Done ");
 	}
 	
-	@Test (priority=2)
+	//@Test (priority=2)
+	@Test(enabled = false)
 	public void searchwithlocationfilter() throws Exception {
 		driver.get(baseUrl+"/browse-jobs/");
 		
