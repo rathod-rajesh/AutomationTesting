@@ -1,6 +1,10 @@
 *.metadata
 *.class
 *.recommenders
+*.xml
+*.html
+*.gen
+
 *.metadata/.plugins/
 .metadata/
 .recommenders/
