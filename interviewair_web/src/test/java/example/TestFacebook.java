@@ -1,6 +1,4 @@
 package example;
-import utility.*;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -12,6 +10,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
+import utility.systemProperty;
+import utility01.*;
 
 public class TestFacebook {
 	public WebDriver driver;

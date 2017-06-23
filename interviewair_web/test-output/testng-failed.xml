@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="homepage.homepage">
+      <class name="example.location_filter_for_java">
         <methods>
-          <include name="testCollegeLogin"/>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="testLocationFilterForJobInTestng"/>
         </methods>
-      </class> <!-- homepage.homepage -->
+      </class> <!-- example.location_filter_for_java -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

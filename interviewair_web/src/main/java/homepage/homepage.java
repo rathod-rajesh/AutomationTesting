@@ -13,8 +13,10 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import utility.systemProperty;
 
-/*
+
+/* Priority:
  * 1. check candidate login working
  * 2. check company login working
  * 3. check college login working
@@ -28,7 +30,9 @@ public class homepage {
 
 	@BeforeClass(alwaysRun = true)
 	public void setUp() throws Exception {
-		System.setProperty("webdriver.gecko.driver", "../webdriver_64x/geckodriver.exe");
+		//System.setProperty("webdriver.gecko.driver", "../webdriver_64x/geckodriver.exe");
+		systemProperty set = new systemProperty();
+		set.setdriver(driver);
 		driver = new FirefoxDriver();
 		baseUrl = "https://test.interviewair.com";
 		//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
