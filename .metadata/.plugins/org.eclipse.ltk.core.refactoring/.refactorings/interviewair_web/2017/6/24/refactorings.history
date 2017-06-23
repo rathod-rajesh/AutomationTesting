@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move &apos;Crossbroswer.xml, testng.xml&apos; to &apos;xmlsuite&apos;" description="Move 2 resources to &apos;xmlsuite&apos;" destination="xmlsuite" element1="Crossbroswer.xml" element2="testng.xml" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="2" stamp="1497593207369" updateReferences="true"/>
-</session>
